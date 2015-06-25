@@ -1,0 +1,16 @@
+.icon {
+  background-image: url('css/sprite.png');
+}
+
+.icon-red-free {
+  background-position: -4px -4px;
+  width: 29px;
+  height: 20px;
+}
+
+.icon-red-last {
+  background-position: -4px -32px;
+  width: 29px;
+  height: 23px;
+}
+

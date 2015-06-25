@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    vars SECTION
+\*------------------------------------*/
+
+/*------------------------------------*\
+    hacks SECTION
+\*------------------------------------*/
+    
+    div, span, a, li, h1, h2, h3, h4, 
+    h5, h6, td, input, textarea, button  {
+      -webkit-text-size-adjust: none;
+      -o-text-size-adjust: none;
+      -moz--text-size-adjust: none;
+      text-size-adjust: none;
+      max-height: 999999px;
+    }
+
+    input[type=text],
+    input[type=password],
+    input[type=submit],
+    textarea  {
+      -webkit-appearance: none !important; 
+    }
+    button::-moz-focus-inner { 
+      border: none; 
+      outline: none;
+    }
+/*------------------------------------*\
+    main SECTION
+\*------------------------------------*/
+    .rel {
+      position: relative;
+    }
+    .clear {
+      clear: both;
+    }
+    a {
+      text-decoration: none;
+    }
+    input, button, textarea {
+      outline: none;
+    }
